@@ -1,3 +1,7 @@
+:root {
+    --button-violet-color: rgb(61, 6, 113);
+} 
+
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 500;
@@ -72,14 +76,14 @@ img {
 
 form {
     padding: 2rem;
-    background-color: blueviolet;
+    background-color: var(--button-violet-color);
     width: 70%;
     margin: 10px auto;
     color: white;
 
 }
 
-.urlapmezo {
+.form-field {
     display: block;
     width: 50%;
     padding: 1em;
@@ -87,7 +91,7 @@ form {
     margin: 0.5em 0;
 }
 
-.urlapgomb {
+.form-button {
     display: block;
     width: 10%;
     padding: 1em;
@@ -97,13 +101,13 @@ form {
     margin: auto;
 }
 
-.formcim {
+.form-title {
     margin-top:1em;
     margin-bottom: 2em;
     font-size: 3em;
 }
 
-#elfogadom {
+#i-accept {
     margin: 2em 0;
     padding: 1em;
     border: solid rgb(36, 7, 7) 2px;
@@ -112,4 +116,15 @@ form {
 
 li {
     font-style: oblique;
+}
+
+.navbutton {
+    color: white;
+    font-size: 0.8em;
+    text-align: center;
+    background-color: var(--button-violet-color);
+    display: inline-block;
+    width: 15em;
+    padding: 0.1em;
+    margin: 0.5em;
 }
